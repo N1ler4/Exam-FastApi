@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from database import Base, engine
 from router import (users, menu, submenu, workers, leaders,
-                    vacancy, law, shnq, con_regulation, reference, upload_img, news, contact , meeting , event , seminar)
+                    vacancy, law, shnq, con_regulation, reference, upload_img, news, contact, meeting, event, seminar)
 from auth.auth import router as auth_router
 
 
